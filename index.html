@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Инстаботы</title>
+</head>
+
+<body>
+    <main class="main-wrapper">
+        <span id='main-wrapper'></span>
+        <header class="header">
+            <div class="container">
+                <div class="header-left-side">
+                    <button class="menu-open-btn">
+                        <img src="assets/img/menu-open.svg" alt="">
+                    </button>
+                    <div class="header-logo">
+                        <h1 class="logo-text">Инстаботы</h1>
+                    </div>
+                </div>
+                <div class="header-right-side closen">
+                    <div class="header-right-wrapper">
+                        <button class="menu-close-btn">
+                            <img src="assets/img/menu-close.svg" alt="">
+                        </button>
+                        <nav class="header-nav">
+                            <span class="menu-title">Меню</span>
+                            <ul class="header-nav__ul">
+                                <li class="header-nav__li"><a href="#about" class="header-nav__link">О
+                                        компании<span></span></a>
+                                </li>
+                                <li class="header-nav__li"><a href="#tariffs" class="header-nav__link">Тарифы<span></span></a>
+                                </li>
+                                <li class="header-nav__li"><a href="#reviews" class="header-nav__link">Отзывы<span></span></a>
+                                </li>
+                                <li class="header-nav__li"><a href="#faq" class="header-nav__link">Q&A<span></span></a></li>
+                                <li class="header-nav__li"><a href="#feedback" class="header-nav__link">Обратная
+                                        связь<span></span></a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-switch-lang-block">
+                            <a href="#" class="rus-lang">Ru</a>
+                            <span></span>
+                            <a href="#" class="en-lang">En</a>
+                        </div>
+                        <a href="#" class="purple-btn">Вход и регистрация</a>
+                    </div>
+                </div>
+                <a href="#" class="purple-btn mobile"><span>Вход и регистрация</span></a>
+            </div>
+        </header>
+        <span class="sticky-header-helper"></span>
+        <section class="intro">
+            <div class="container">
+                <div class="intro-content">
+                    <h1 class="intro-content__title">Высокий уровень вовлечения представителей</h1>
+                    <form action="" class="email-form">
+                        <input type="text" class="email-form__input" placeholder="Введите свой e-mail">
+                        <div class="email-form__btn-wrapper">
+                            <button type="button" class="email-form-btn">Отправить</button>
+                        </div>
+                    </form>
+                    <div class="coution-text-wrapper">
+                        <p class="coution-text">Нажимая на кнопку вы соглашаетесь на обработку <a>персональных
+                                данных</a></p>
+                    </div>
+                </div>
+                <div class="intro-img">
+                    <img src="assets/img/intro-img.svg" alt="img">
+                </div>
+                <button class="wheeldown"><img src="assets/img/Wheeldown.svg" alt="">Листайте дальше</button>
+            </div>
+        </section>
+        <section id="about" class="advantages section">
+            <div class="container">
+                <h1 class="section-title">Наши преимущества</h1>
+                <div class="advantages-content">
+                    <div class="advantages-content__item">
+                        <h1 class="advantages-content__item--title"><img src="assets/img/Emoji.png" alt="">Легко и
+                            просто</h1>
+                        <p class="advantages-content__item--descrip">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu
+                            turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </div>
+                    <div class="advantages-content__item">
+                        <h1 class="advantages-content__item--title"><img src="assets/img/Emoji.png" alt="">Быстро и
+                            доступно</h1>
+                        <p class="advantages-content__item--descrip">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu
+                            turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </div>
+                    <div class="advantages-content__item">
+                        <h1 class="advantages-content__item--title"><img src="assets/img/Emoji.png" alt="">А главное,
+                            качественно</h1>
+                        <p class="advantages-content__item--descrip">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu
+                            turpis est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h1 class="section-title">Как мы работаем</h1>
+                <div class="section-wrapper">
+                    <div class="about-img-block">
+                        <img data-src="assets/img/about-img.svg" src="assets/img/1x1.png" alt="" class="about-img">
+                    </div>
+                    <div class="about-tabs-wrapper">
+                        <div class="tabs-nav">
+                            <button class="tabs-nav-btn active" type="button" data-tab="#tab-1">Lorem ipsum</button>
+                            <button class="tabs-nav-btn" type="button" data-tab="#tab-2">Lorem ipsum</button>
+                            <button class="tabs-nav-btn" type="button" data-tab="#tab-3">Lorem ipsum</button>
+                        </div>
+                        <div class="tabs-content">
+                            <div id="tab-1" class="tabs-item">
+                                <h1 class="tabs-title">Lorem ipsum dolor sit amet, consectetur.</h1>
+                                <h2 class="tabs-subtitle">Semper sollicitudin ut cursus nunc eu ultricies.</h2>
+                                <p class="tabs-descrip">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla
+                                    tincidunt egestas nibh. Non orci, et massa sed vulputate proin. Eu euismod diam,
+                                    arcu sit vitae nam. Tristique orci, ornare sit vel amet.
+                                </p>
+                                <p class="tabs-descrip">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla
+                                    tincidunt egestas nibh. Non orci, et massa sed vulputate proin. Eu euismod diam,
+                                    arcu sit vitae nam. Tristique orci, ornare sit vel amet.
+                                </p>
+                                <a href="#" class="purple-btn" id="book-btn">Забронировать звонок</a>
+                            </div>
+                            <div id="tab-2" class="tabs-item">
+                                <h1 class="tabs-title">Lorem ipsum dolor sit amet</h1>
+                                <h2 class="tabs-subtitle">Semper sollicitudin</h2>
+                                <div class="tabs-img-wrapper">
+                                    <img data-src="assets/img/contact-img.png" src="assets/img/1x1.png" alt="" class="tabs-img">
+                                </div>
+                                <p class="tabs-descrip">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla
+                                    tincidunt egestas nibh. Non orci, et massa sed vulputate proin. Eu euismod diam,
+                                    arcu sit vitae nam. Tristique orci, ornare sit vel amet.
+                                </p>
+                                <a href="#" class="purple-btn" id="book-btn">Забронировать звонок</a>
+                            </div>
+                            <div id="tab-3" class="tabs-item active">
+                                <h1 class="tabs-title">Lorem ipsum dolor sit amet, consectetur.</h1>
+                                <h2 class="tabs-subtitle">Semper sollicitudin ut cursus nunc</h2>
+                                <p class="tabs-descrip">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Posuere lorem nulla
+                                    tincidunt egestas nibh. Non orci, et massa sed vulputate proin. Eu euismod diam,
+                                    arcu sit vitae nam. Tristique orci, ornare sit vel amet.
+                                </p>
+                                <div class="tabs-img-wrapper">
+                                    <img data-src="assets/img/contact-img.png" src="assets/img/1x1.png" alt="" class="tabs-img">
+                                </div>
+                                <a href="#" class="purple-btn" id="book-btn">Забронировать звонок</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tariffs" class="tariffs section">
+            <div class="container">
+                <h1 class="section-title">Наши тарифы</h1>
+            </div>
+            <div class="section-wrapper">
+                <div class="tariffs-item">
+                    <div class="tariffs-item-header">
+                        <h1 class="tariff-title">Эконом</h1>
+                        <div class="tariff-price">2990 руб<span>/месяц</span></div>
+                    </div>
+                    <div class="tariffs-item-abilities">
+                        <ul class="tariffs-list-wrapper">
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-yes.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="more-btn">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="tariffs-item">
+                    <div class="tariffs-item-header">
+                        <h1 class="tariff-title">Стандарт</h1>
+                        <div class="tariff-price">4990 руб<span>/месяц</span></div>
+                    </div>
+                    <div class="tariffs-item-abilities">
+                        <ul class="tariffs-list-wrapper">
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-yes.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="more-btn">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="tariffs-item">
+                    <div class="tariffs-item-header">
+                        <h1 class="tariff-title">Экстра</h1>
+                        <div class="tariff-price">8990 руб<span>/месяц</span></div>
+                    </div>
+                    <div class="tariffs-item-abilities">
+                        <ul class="tariffs-list-wrapper">
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-yes.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="more-btn">Узнать подробнее</a>
+                    </div>
+                </div>
+                <div class="tariffs-item">
+                    <div class="tariffs-item-header">
+                        <h1 class="tariff-title">Премиальный</h1>
+                        <div class="tariff-price">12990 руб<span>/месяц</span></div>
+                    </div>
+                    <div class="tariffs-item-abilities">
+                        <ul class="tariffs-list-wrapper">
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-yes.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </li>
+                            <li class="tariff-ability">
+                                <div class="tariff-img-wrapper">
+                                    <img src="assets/img/tariffs-no.svg" alt="" class="ability-status">
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada gravida nisi
+                                    sit felis odio.</p>
+                            </li>
+                        </ul>
+                        <a href="#" class="more-btn">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="reviews section">
+            <div class="container">
+                <h1 class="section-title">Отзывы</h1>
+                <div class="section-wrapper">
+                    <div class="reviews-item review-item-1 ">
+                        <div class="review-info">
+                            <div class="review-user-info"">
+                                <div class=" review-user-img">
+                                <img src="assets/img/review-user-img.png" alt="">
+                            </div>
+                            <h1 class="review-user-name">Кот Олежка</h1>
+                        </div>
+                        <div class="review-publish-date">03.06.2021</div>
+                    </div>
+                    <div class="review-item-content">
+                        <p class="review-user-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis
+                            est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                        <div class="review-item-star-rate">
+                            <img src="assets/img/review-star-rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-item review-item-2 ">
+                    <div class="review-info">
+                        <div class="review-user-info">
+                            <div class="review-user-img">
+                                <img src="assets/img/review-user-img.png" alt="">
+                            </div>
+                            <h1 class="review-user-name">Кот Семен</h1>
+                        </div>
+                        <div class="review-publish-date">03.06.2021</div>
+                    </div>
+                    <div class="review-item-content">
+                        <p class="review-user-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis
+                            est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                        <div class="review-item-star-rate">
+                            <img src="assets/img/review-star-rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-item review-item-3 ">
+                    <div class="review-info">
+                        <div class="review-user-info">
+                            <div class="review-user-img">
+                                <img src="assets/img/review-user-img.png" alt="">
+                            </div>
+                            <h1 class="review-user-name">Кот Серега</h1>
+                        </div>
+                        <div class="review-publish-date">03.06.2021</div>
+                    </div>
+                    <div class="review-item-content">
+                        <p class="review-user-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis
+                            est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                        <div class="review-item-star-rate">
+                            <img src="assets/img/review-star-rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-item review-item-4 ">
+                    <div class="review-info">
+                        <div class="review-user-info">
+                            <div class="review-user-img">
+                                <img src="assets/img/review-user-img.png" alt="">
+                            </div>
+                            <h1 class="review-user-name">Кот Инокентий</h1>
+                        </div>
+                        <div class="review-publish-date">03.06.2021</div>
+                    </div>
+                    <div class="review-item-content">
+                        <p class="review-user-comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Malesuada gravida nisi sit felis odio. Sociis et pellentesque sed id. Congue arcu turpis
+                            est, aliquet porttitor. Congue arcu turpis est, aliquet porttitor.</p>
+                        <div class="review-item-star-rate">
+                            <img src="assets/img/review-star-rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="structured-status">Котики структурированы!</h1>
+            <button class="structure-btn" type="button">Структурировать котиков</button>
+            </div>
+        </section>
+        <section class="intro-2">
+            <div class="container">
+                <div class="intro-img">
+                    <img data-src="assets/img/intro2-imgpng.png" src="assets/img/1x1.png" alt="img">
+                </div>
+                <div class="intro-content">
+                    <h1 class="intro-content__title">Получите самую выгодную цену
+                        на планете</h1>
+                    <form action="" class="email-form">
+                        <input type="text" class="email-form__input" placeholder="Введите свой e-mail">
+                        <div class="email-form__btn-wrapper">
+                            <button type="submit" class="email-form-btn">Отправить</button>
+                        </div>
+                    </form>
+                    <div class="coution-text-wrapper">
+                        <p class="coution-text">Нажимая на кнопку вы соглашаетесь на обработку <a>персональных
+                                данных</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="faq section">
+            <div class="container">
+                <h1 class="section-title">Часто задаваемые вопросы</h1>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <div class="accordion-trigger">
+                            <h1 class="accordion-question">Первый вопрос</h1>
+                            <img src="assets/img/accordion-btn.svg" alt="open/close">
+                        </div>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                                pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
+                                lobortis
+                                lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor.
+                                Tincidunt
+                                nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada
+                                gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item">
+                        <div class="accordion-trigger">
+                            <h1 class="accordion-question">Второй вопрос</h1>
+                            <img src="assets/img/accordion-btn.svg" alt="open/close">
+                        </div>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                                pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
+                                lobortis
+                                lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor.
+                                Tincidunt
+                                nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada
+                                gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item">
+                        <div class="accordion-trigger">
+                            <h1 class="accordion-question">Третий вопрос</h1>
+                            <img src="assets/img/accordion-btn.svg" alt="open/close">
+                        </div>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                                pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
+                                lobortis
+                                lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor.
+                                Tincidunt
+                                nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada
+                                gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item">
+                        <div class="accordion-trigger">
+                            <h1 class="accordion-question">Четвертый вопрос</h1>
+                            <img src="assets/img/accordion-btn.svg" alt="open/close">
+                        </div>
+                        <div class="accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa mi aliquet eu interdum eu
+                                pellentesque amet, fermentum hendrerit. Nunc hendrerit nec risus adipiscing lacus,
+                                lobortis
+                                lectus cursus nunc. Id pellentesque dapibus eu tincidunt dui id tortor, porttitor.
+                                Tincidunt
+                                nunc praesent euismod in nisl, tellus suspendisse morbi nam. Egestas eget erat malesuada
+                                gravida. Et enim integer quam orci, cursus tincidunt mauris, sit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="feedback" class="feedback section">
+            <div class="container">
+                <div class="feedback-content">
+                    <div class="feedback-content__descrip">
+                        <h1 class="feedback-content__descrip--title">Обратная связь</h1>
+                        <p class="feedback-content__descrip--text">Поговорите с одним из наших сотрудников, чтобы
+                            узнать, сколько мы можем получить для вас целевой аудитории за месяц с минимальными усилиями
+                            с вашей стороны</p>
+                    </div>
+                    <form action="" class="feedback-form">
+                        <input type="text" class="feedback-form__input" placeholder="Введите свой e-mail">
+                        <input type="text" class="feedback-form__input" placeholder="Номер мобильного телефона">
+                        <input type="text" class="feedback-form__input" placeholder="Никнейм в Instagram">
+                        <textarea name="feedback-form__text" class="feedback-form__text"
+                            placeholder="Что вы бы хотели спросить о росте в Instagram"></textarea>
+                        <div class="feedback-form__btn-caution-wrapper">
+                            <button class="feedback-form__btn-caution-wrapper--btn">Отправить заявку</button>
+                            <div class="coution-text-wrapper">
+                                <p class="coution-text">Нажимая на кнопку вы соглашаетесь на обработку <a>персональных
+                                        данных</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="feedback-img">
+                    <img data-src="assets/img/feedback-img.png" src="assets/img/1x1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-content__logo">
+                        <a href="#" class="footer-logo">Инстаботы</a>
+                    </div>
+                    <a href="#" class="footer-content__copywrite">© 2021 Copyright reserved
+                        Instabots</a>
+                </div>
+                <button class="scroll-top-btn"><span>Наверх</span></button>
+            </div>
+        </footer>
+    </main>
+    <!-- <script src="js/gsap.min.js"></script> -->
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
